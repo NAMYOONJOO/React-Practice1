@@ -7,10 +7,12 @@ import Basic02 from './basic02';
 import Basic03 from './basic03';
 import Basic04 from './basic04';
 import Basic05 from './basic05';
+import Basic06 from './basic06';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Basic06 />
     <Basic05 />
     <Basic04 />
     <Basic03 />
