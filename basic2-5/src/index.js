@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Basic04 from './basic04';
+import Basic03 from './basic03';
+import Basic02 from './basic02';
+import Basic01 from './basic01';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Basic04 />
+    <Basic03 />
+    <Basic02 />
+    <Basic01 />
   </React.StrictMode>,
   document.getElementById('root')
 );
