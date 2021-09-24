@@ -1,4 +1,5 @@
 import React from 'react';
+//click event
 
 class Hello extends React.Component{
     constructor(props){
