@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import Basic01 from './basic01';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import StopWatchFunc from './StopWatch';
 
 ReactDOM.render(
   <React.StrictMode>
+    <StopWatchFunc />
+    <Basic01 />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
