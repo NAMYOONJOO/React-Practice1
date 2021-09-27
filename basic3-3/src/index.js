@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import InchToCm from './InchToCm';
+import ColorBoxFunc from './ColorBox';
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
+    <ColorBoxFunc/>
     <InchToCm/>
   </React.StrictMode>,
   document.getElementById('root')
