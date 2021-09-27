@@ -19,10 +19,10 @@ class StopWatch extends React.Component{
     }
     //언마운트
     componentWillUnmount(){
-        console.log('componentWillUnmount')
         clearInterval(this.timerId)
     }
     
+    //setState 메서드를 호출하여 화면 변경 처리 발생
     tick(){
         if(this.state.isLive){
            const v = new Date().getTime()

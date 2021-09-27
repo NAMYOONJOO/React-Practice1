@@ -5,9 +5,15 @@ import Basic01 from './basic01';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import StopWatchFunc from './StopWatch';
+import Basic02 from './basic02';
+import Basic03 from './basic03';
+import Basic04 from './basic04';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Basic04 />
+    <Basic03 />
+    <Basic02 />
     <StopWatchFunc />
     <Basic01 />
     <App />
