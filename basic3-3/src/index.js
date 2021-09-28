@@ -4,12 +4,16 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import InchToCm from './InchToCm';
 import ColorBoxFunc from './ColorBox';
+import ZipInput from './ZipInput';
+import CustomForm from './CustomForm';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <CustomForm/>
+    <ZipInput/>
     <ColorBoxFunc/>
     <InchToCm/>
   </React.StrictMode>,
