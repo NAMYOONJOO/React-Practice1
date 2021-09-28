@@ -6,12 +6,16 @@ import InchToCm from './InchToCm';
 import ColorBoxFunc from './ColorBox';
 import ZipInput from './ZipInput';
 import CustomForm from './CustomForm';
+import LoginForm from './LoginForm';
+import AgentText from './AgentText';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <AgentText/>
+    <LoginForm/>
     <CustomForm/>
     <ZipInput/>
     <ColorBoxFunc/>
