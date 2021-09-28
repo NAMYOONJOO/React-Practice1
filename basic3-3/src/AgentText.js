@@ -18,7 +18,6 @@ export default class AgentText extends React.Component {
             console.log('JSON을 읽어 들이는 동안 오류가 발생했습니다.')
             return
         }
-        console.log(res.body)
         this.setState({items:res.body})
     }
     render(){
