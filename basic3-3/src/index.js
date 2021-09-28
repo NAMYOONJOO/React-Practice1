@@ -8,12 +8,16 @@ import ZipInput from './ZipInput';
 import CustomForm from './CustomForm';
 import LoginForm from './LoginForm';
 import AgentText from './AgentText';
+import TextForm from './TextForm';
+import CheckBox from './CheckBox';
 
 
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <CheckBox/>
+    <TextForm/>
     <AgentText/>
     <LoginForm/>
     <CustomForm/>
