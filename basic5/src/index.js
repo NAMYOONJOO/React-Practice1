@@ -3,9 +3,13 @@ import ReactDOM from 'react-dom';
 import FluxView from './fluxView';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import RouterTest1 from './routerTest1';
+import RouterTest2 from './routerTest2';
 
 ReactDOM.render(
   <React.StrictMode>
+    <RouterTest2 />
+    <RouterTest1 />
     <FluxView />
   </React.StrictMode>,
   document.getElementById('root')
