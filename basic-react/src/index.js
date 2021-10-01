@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Hook01 from './Hook01';
+import Hook02 from './Hook02';
+import Hook03 from './Hook03';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Hook03 />
+    <Hook02 />
+    <Hook01 />
   </React.StrictMode>,
   document.getElementById('root')
 );
