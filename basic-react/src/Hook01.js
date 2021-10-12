@@ -12,6 +12,7 @@ export default function Hook01(){
         setCount(count+1)
         setCount(count+1)
     }
+     
     return(
         <div>
             <h2>{count}</h2>

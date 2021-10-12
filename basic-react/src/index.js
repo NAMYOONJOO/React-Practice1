@@ -5,13 +5,10 @@ import reportWebVitals from './reportWebVitals';
 import Hook01 from './Hook01';
 import Hook02 from './Hook02';
 import Hook03 from './Hook03';
+import App from './App2';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Hook03 />
-    <Hook02 />
-    <Hook01 />
-  </React.StrictMode>,
+  <App/>,
   document.getElementById('root')
 );
 
